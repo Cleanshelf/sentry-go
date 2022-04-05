@@ -7,11 +7,11 @@
 
 # Fork of Official Sentry SDK for Go without integrations
 
-[![Build Status](https://github.com/getsentry/sentry-go/workflows/go-workflow/badge.svg)](https://github.com/getsentry/sentry-go/actions?query=workflow%3Ago-workflow)
-[![Go Report Card](https://goreportcard.com/badge/github.com/getsentry/sentry-go)](https://goreportcard.com/report/github.com/getsentry/sentry-go)
+[![Build Status](https://github.com/Cleanshelf/sentry-go/workflows/go-workflow/badge.svg)](https://github.com/Cleanshelf/sentry-go/actions?query=workflow%3Ago-workflow)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Cleanshelf/sentry-go)](https://goreportcard.com/report/github.com/Cleanshelf/sentry-go)
 [![Discord](https://img.shields.io/discord/621778831602221064)](https://discord.gg/Ww9hbqr)
-[![GoDoc](https://godoc.org/github.com/getsentry/sentry-go?status.svg)](https://godoc.org/github.com/getsentry/sentry-go)
-[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/getsentry/sentry-go)
+[![GoDoc](https://godoc.org/github.com/Cleanshelf/sentry-go?status.svg)](https://godoc.org/github.com/Cleanshelf/sentry-go)
+[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/Cleanshelf/sentry-go)
 
 `sentry-go` provides a Sentry client implementation for the Go programming
 language. This is the next line of the Go SDK for [Sentry](https://sentry.io/),
@@ -38,7 +38,7 @@ though support for this configuration is best-effort.
 `sentry-go` can be installed like any other Go library through `go get`:
 
 ```console
-$ go get github.com/getsentry/sentry-go
+$ go get github.com/Cleanshelf/sentry-go
 ```
 
 Or, if you are already using
@@ -46,15 +46,15 @@ Or, if you are already using
 version number as well:
 
 ```console
-$ go get github.com/getsentry/sentry-go@latest
+$ go get github.com/Cleanshelf/sentry-go@latest
 ```
 
-Check out the [list of released versions](https://pkg.go.dev/github.com/getsentry/sentry-go?tab=versions).
+Check out the [list of released versions](https://pkg.go.dev/github.com/Cleanshelf/sentry-go?tab=versions).
 
 ## Configuration
 
 To use `sentry-go`, you’ll need to import the `sentry-go` package and initialize
-it with your DSN and other [options](https://pkg.go.dev/github.com/getsentry/sentry-go#ClientOptions).
+it with your DSN and other [options](https://pkg.go.dev/github.com/Cleanshelf/sentry-go#ClientOptions).
 
 If not specified in the SDK initialization, the
 [DSN](https://docs.sentry.io/product/sentry-basics/dsn-explainer/),
@@ -73,7 +73,7 @@ To get started, have a look at one of our [examples](example/):
 - [Basic error instrumentation](example/basic/main.go)
 - [Error and tracing for HTTP servers](example/http/main.go)
 
-We also provide a [complete API reference](https://pkg.go.dev/github.com/getsentry/sentry-go).
+We also provide a [complete API reference](https://pkg.go.dev/github.com/Cleanshelf/sentry-go).
 
 For more detailed information about how to get the most out of `sentry-go`,
 checkout the official documentation:
@@ -90,10 +90,8 @@ checkout the official documentation:
 
 ## Resources
 
-- [Bug Tracker](https://github.com/getsentry/sentry-go/issues)
-- [GitHub Project](https://github.com/getsentry/sentry-go)
-- [![GoDoc](https://godoc.org/github.com/getsentry/sentry-go?status.svg)](https://godoc.org/github.com/getsentry/sentry-go)
-- [![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/getsentry/sentry-go)
+- [![GoDoc](https://godoc.org/github.com/Cleanshelf/sentry-go?status.svg)](https://godoc.org/github.com/Cleanshelf/sentry-go)
+- [![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/Cleanshelf/sentry-go)
 - [![Documentation](https://img.shields.io/badge/documentation-sentry.io-green.svg)](https://docs.sentry.io/platforms/go/)
 - [![Forum](https://img.shields.io/badge/forum-sentry-green.svg)](https://forum.sentry.io/c/sdks)
 - [![Discord](https://img.shields.io/discord/621778831602221064)](https://discord.gg/Ww9hbqr)
