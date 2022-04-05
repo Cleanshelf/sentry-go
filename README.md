@@ -5,7 +5,7 @@
   <br />
 </p>
 
-# Official Sentry SDK for Go
+# Fork of Official Sentry SDK for Go without integrations
 
 [![Build Status](https://github.com/getsentry/sentry-go/workflows/go-workflow/badge.svg)](https://github.com/getsentry/sentry-go/actions?query=workflow%3Ago-workflow)
 [![Go Report Card](https://goreportcard.com/badge/github.com/getsentry/sentry-go)](https://goreportcard.com/report/github.com/getsentry/sentry-go)
@@ -19,6 +19,8 @@ intended to replace the `raven-go` package.
 
 > Looking for the old `raven-go` SDK documentation? See the Legacy client section [here](https://docs.sentry.io/clients/go/).
 > If you want to start using sentry-go instead, check out the [migration guide](https://docs.sentry.io/platforms/go/migration/).
+
+*Note* integrations are removed here to trim down the dependency graph.
 
 ## Requirements
 
