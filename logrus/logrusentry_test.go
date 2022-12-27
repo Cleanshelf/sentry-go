@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/Cleanshelf/sentry-go"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -15,8 +16,6 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	pkgerr "github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-
-	"github.com/getsentry/sentry-go"
 )
 
 const testDSN = "http://test:test@localhost/1234"
